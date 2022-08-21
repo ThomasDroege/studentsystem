@@ -20,9 +20,9 @@ public class StudentController {
         return "New student is added";
     }
 
-    @GetMapping("/overview")
-    public List<Student> overview() {
-        return studentService.getStudents();
+    @GetMapping("/getAll")
+    public List<Student> getAll() {
+        return studentService.getAllStudents();
 
 
     }
