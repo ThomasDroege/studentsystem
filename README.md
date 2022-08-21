@@ -1,7 +1,7 @@
 # Studentsystem: Fullstack with Spring Boot and React
 
 ## Description
-This web application is build according to  <a href="https://www.youtube.com/watch?v=O_XL9oQ1_To">Youtube: Fullstack with Spring Boot and React</a>. for exercise purpose with the difference that i've used PostgreSQL instead of MySQL.
+This web application is build according to  <a href="https://www.youtube.com/watch?v=O_XL9oQ1_To">Youtube: Fullstack with Spring Boot and React</a>. for exercise purpose with the difference that i've used PostgreSQL instead of MySQL. 
 
 ## Installation inside the studentfrontend-folder
 
@@ -22,3 +22,6 @@ $ npm install material-icons
 ```bash
 $ npm run start
 ```
+
+## Screenshot
+![image](https://user-images.githubusercontent.com/25778177/185790269-bb2d2e46-9ff3-467f-9074-4e9885d47d87.png)
