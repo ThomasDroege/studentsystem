@@ -1,0 +1,48 @@
+{
+	"info": {
+		"_postman_id": "5c9c2b5c-4ea6-4fb8-a798-d59f3ea86f21",
+		"name": "studentSystem",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "/student/add",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Thomas Dröge\",\r\n    \"address\": \"Klever Str. 21\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "localhost:8080/student/add"
+			},
+			"response": []
+		},
+		{
+			"name": "/student/overview",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "localhost:8080/student/getAll"
+			},
+			"response": []
+		}
+	]
+}
